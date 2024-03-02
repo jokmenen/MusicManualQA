@@ -25,4 +25,9 @@ setup_and_retrieval = RunnableParallel(
 )
 chain = setup_and_retrieval | prompt | llm | output_parser
 
-print(chain.invoke(query))
+# print(chain.invoke(query))
+
+if __name__ == '__main__':
+    while True:
+        query = input('Give your question to MusicManualQA:\n> ')
+        print(chain.invoke(query))
