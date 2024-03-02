@@ -1,0 +1,10 @@
+chromadb
+openai
+langchain
+langchain-community
+langchain-core
+langchain-openai
+pypdf
+python-dotenv
+cryptography
+tqdm

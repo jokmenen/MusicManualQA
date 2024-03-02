@@ -1,3 +1,12 @@
+#### Custom
+
+test_data/
+db/
+
+dev.ipynb
+api_keys.env
+
+#### TEMPLATE
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
